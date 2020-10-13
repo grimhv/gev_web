@@ -1,0 +1,15 @@
+.tg  {border-collapse:collapse;border-spacing:0;border-width:1px;border-style:solid;border-color:#93a1a1;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#93a1a1;color:#002b36;background-color:#fdf6e3;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#93a1a1;color:#fdf6e3;background-color:#657b83;}
+.tg .tg-2{background-color:#eee8d5;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-h{border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-1{text-align:left;vertical-align:top}
+.tg .tg-b{background-color:#f1f1f1}
+pre {display:inline;overflow-x:auto;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;}
+
+.paginationContainer {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+}
