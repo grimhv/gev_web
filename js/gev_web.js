@@ -221,7 +221,6 @@ function displayPrevious() {
 function updateResultsHeader() {
     let results = document.getElementById("resultsHeader");
     results.style.visibility = "visible";
-    console.log(window.currentPage);
     let lower = (window.currentPage - 1) * 10 + 1;
     let upper = window.currentPage * 10;
     let total = window.dataContents.length;
