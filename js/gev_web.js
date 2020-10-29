@@ -160,12 +160,12 @@ function drawBody(contents) {
         '    </colgroup>\n' +
         '    <tr>\n' +
         '        <td class="tg-1">' + level + '</td>\n' +
-        '        <td class="tg-1">' + contents['Date'] + '</td>\n' +
-        '        <td class="tg-1">' + contents['Source'] + '</td>\n' +
-        '        <td class="tg-1">' + contents['ID'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['TimeCreated'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['ProviderName'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['Id'] + '</td>\n' +
         '    </tr>\n' +
         '    <tr>\n' +
-        '        <td  class="tg-2" colspan="4"><pre>' + contents['Description'] + '</pre></td>\n' +
+        '        <td  class="tg-2" colspan="4"><pre>' + contents['FormatDescription'] + '</pre></td>\n' +
         '    </tr>\n' +
         '</table>\n' +
         '<br>\n';
@@ -190,12 +190,12 @@ function drawHeader(contents) {
         '    </tr>\n' +
         '    <tr>\n' +
         '        <td class="tg-1">' + level + '</td>\n' +
-        '        <td class="tg-1">' + contents['Date'] + '</td>\n' +
-        '        <td class="tg-1">' + contents['Source'] + '</td>\n' +
-        '        <td class="tg-1">' + contents['ID'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['TimeCreated'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['ProviderName'] + '</td>\n' +
+        '        <td class="tg-1">' + contents['Id'] + '</td>\n' +
         '    </tr>\n' +
         '    <tr>\n' +
-        '        <td  class="tg-2" colspan="4"><pre>' + contents['Description'] + '</pre></td>\n' +
+        '        <td  class="tg-2" colspan="4"><pre>' + contents['FormatDescription'] + '</pre></td>\n' +
         '    </tr>\n' +
         '</table>\n' +
         '<br>\n';

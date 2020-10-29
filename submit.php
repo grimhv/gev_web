@@ -31,8 +31,8 @@ if ($eventLevel == "levelError") {
     $gevCommand .= ("--level 1,2,3,4,5 ");
 }
 
-// reverse direction
-$gevCommand .= "--direction 2";
+// reverse direction and output json
+$gevCommand .= "--direction 2 --format json ";
 
 // echo the command for debugging purposes
 $data['command'] = $gevCommand;
